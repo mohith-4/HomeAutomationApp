@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:layout_gravity="center"
+    tools:context="com.mohith.homeautomation.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="668dp"
+        android:layout_height="654dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="223dp"
+        android:layout_marginBottom="276dp"
+        android:foregroundGravity="center"
+        app:srcCompat="@drawable/vitlogo" />
+
+</RelativeLayout>

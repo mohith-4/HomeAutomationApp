@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_700"
+    tools:context=".team">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="352dp"
+        android:layout_height="141dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="4dp"
+        android:foregroundGravity="center"
+        app:layout_constraintBottom_toTopOf="@+id/textView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/teamm2" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="298dp"
+        android:layout_height="74dp"
+        android:text=" P.SUJITH [ 21BCE7429  ]"
+        android:textSize="20sp"
+        android:textStyle="bold"
+
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="298dp"
+        android:layout_height="74dp"
+        android:layout_marginBottom="8dp"
+        android:text=" S.MOHITH [ 21BCE7557   ]"
+        android:textSize="20sp"
+        android:textStyle="bold"
+
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="298dp"
+        android:layout_height="74dp"
+        android:layout_marginBottom="8dp"
+        android:text=" A.ANVITHA [ 21BCE7498  ]"
+        android:textSize="20sp"
+        android:textStyle="bold"
+
+        app:layout_constraintBottom_toTopOf="@+id/textView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="298dp"
+        android:layout_height="74dp"
+        android:layout_marginBottom="4dp"
+        android:text=" C.KISHAN [ 21BCE7282  ]"
+        android:textSize="20sp"
+        android:textStyle="bold"
+
+        app:layout_constraintBottom_toTopOf="@+id/textView6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="298dp"
+        android:layout_height="74dp"
+        android:layout_marginBottom="64dp"
+        android:text=" G.BHASKARA VARMA [ 21BCE8111 ]"
+        android:textSize="20sp"
+        android:textStyle="bold"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="298dp"
+        android:layout_height="74dp"
+        android:layout_marginBottom="8dp"
+        android:text=" M.SALMAN[ 21BCE8213   ]"
+        android:textSize="20sp"
+        android:textStyle="bold"
+
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

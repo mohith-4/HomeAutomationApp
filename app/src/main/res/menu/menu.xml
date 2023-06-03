@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:checkable="false"
+        android:icon="@android:drawable/ic_menu_sort_by_size"
+        android:title="MENU"
+        app:showAsAction="always">
+        <menu>
+
+
+            <item
+                android:id="@+id/team"
+                android:icon="@drawable/ic_baseline_people_24"
+                android:title="Team"
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/report"
+                android:icon="@drawable/ic_baseline_library_books_24"
+                android:title="Project Report"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/about"
+                android:icon="@drawable/ic_baseline_school_24"
+                android:title="About VIT AP"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/guide"
+                android:icon="@drawable/ic_baseline_person_24"
+                android:title="Guide"
+                app:showAsAction="never" />
+
+
+        </menu>
+
+    </item>
+
+</menu>

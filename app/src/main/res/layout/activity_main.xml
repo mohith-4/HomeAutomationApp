@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D07856DA"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:textAlignment="inherit"
+    tools:context="com.mohith.homeautomation.MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:text="HOME AUTOMATION"
+        android:textColorHighlight="#9B2C2C"
+        android:textDirection="locale"
+        android:textIsSelectable="false"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:transformPivotX="34dp" />
+
+    <Switch
+        android:id="@+id/mode"
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:checked="false"
+        android:text="Mode ( REMOTE / IOT)"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textOff="No"
+        android:textOn="Yes"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <Switch
+        android:id="@+id/relay1"
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:checked="false"
+        android:text="Relay1  (OFF / ON)"
+        android:textAlignment="center"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText,UseSwitchCompatOrMaterialXml" />
+
+    <Switch
+        android:id="@+id/relay2"
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:checked="false"
+        android:text=" Relay2 (OFF / ON)"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textOff="No"
+        android:textOn="Yes"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <Switch
+        android:id="@+id/relay3"
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:checked="false"
+        android:text="Relay3 (OFF / ON)"
+        android:textAlignment="center"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <Switch
+        android:id="@+id/relay4"
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:checked="false"
+        android:text="Relay4 (OFF / ON)"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textOff="No"
+        android:textOn="Yes"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginTop="15dp"
+        android:gravity="left">
+
+        <WebView
+            android:id="@+id/webview"
+            android:layout_width="78dp"
+            android:layout_height="59dp"
+            android:layout_gravity="left"
+            android:background="#D04141"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/teamnum"
+            android:layout_width="215dp"
+            android:layout_height="43dp"
+            android:gravity="clip_horizontal|center_horizontal|center_vertical"
+            android:text="220432"
+            android:textColorHighlight="#9B2C2C"
+            android:textDirection="locale"
+            android:textIsSelectable="false"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:transformPivotX="34dp"
+            android:visibility="visible"
+            tools:visibility="visible" />
+
+        <Button
+            android:id="@+id/save_button"
+            android:layout_width="124dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="Save" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="15dp">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="226dp"
+            android:cropToPadding="true"
+            android:foregroundGravity="right"
+            app:srcCompat="@drawable/download3" />
+
+
+    </TableRow>
+
+
+
+</LinearLayout>
+
